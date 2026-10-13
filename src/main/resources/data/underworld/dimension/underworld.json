@@ -1,0 +1,13 @@
+{
+  "type": "underworld:underworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "underworld:wasteland",
+      "features": false,
+      "lakes": false,
+      "structure_overrides": [],
+      "layers": []
+    }
+  }
+}

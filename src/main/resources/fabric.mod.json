@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "underworld",
+  "version": "${version}",
+  "name": "Unstable Underworld",
+  "description": "Continuous falling from the Nether into kilometer-scale soul sand fields, vast blackstone wastes and ancient ruins. Nether-style sky; Adventure-only gameplay.",
+  "authors": ["Community underworld project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.unstable.underworld.UnderworldMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
