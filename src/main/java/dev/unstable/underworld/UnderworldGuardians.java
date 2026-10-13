@@ -5,7 +5,7 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.monster.skeleton.WitherSkeleton;
 import net.minecraft.world.item.ItemStack;
@@ -127,7 +127,7 @@ final class UnderworldGuardians {
         }
         if (spawn == null) return;
 
-        WitherSkeleton skeleton = EntityType.WITHER_SKELETON.create(world, EntitySpawnReason.STRUCTURE);
+        WitherSkeleton skeleton = EntityTypes.WITHER_SKELETON.create(world, EntitySpawnReason.STRUCTURE);
         if (skeleton == null) return;
         skeleton.setPos(spawn.getX() + 0.5, spawn.getY(), spawn.getZ() + 0.5);
         skeleton.setPersistenceRequired();
